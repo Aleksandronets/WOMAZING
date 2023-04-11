@@ -1,0 +1,380 @@
+.content-pages {
+    max-width: 1110px;
+    width: 100%;
+    height: max-content; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.active-link {
+    color: var(--green1-clr);
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    width: 181px;
+    justify-content: space-between;
+}
+
+.content-pages h1 {
+    margin-top: 190px;
+}
+
+.color-grey {
+    color: var(--dark-grey-clr);
+}
+
+.content-wrapper-shop {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons-wrapper {
+    margin-top: 200px;
+    max-width: 1050px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buttons-wrapper button {
+    height: 62px;
+    background-color: var(--white-clr);
+    cursor: pointer;
+}
+
+.first-bttn {
+    width: 162px;
+}
+
+button:nth-of-type(2) {
+    width: 191px;
+}
+
+button:nth-of-type(3) {
+    width: 216px;
+}
+
+button:nth-of-type(4) {
+    width: 223px;
+}
+
+button:nth-of-type(5) {
+    width: 218px;
+}
+
+.buttons-wrapper button:focus {
+    background-color: var(--black-clr);
+    color: var(--white-clr);
+    transition: ease 0.5s;
+}
+
+.buttons-wrapper ~ p {
+    color: var(--dark2-grey-clr);
+    margin-top: 92px;
+}
+
+.catalog-grid {
+    margin-top: 65px;
+    display: grid;
+    grid-template-areas: 
+    "cell1  cell2  cell3"
+    "cell4  cell5  cell6"
+    "cell7  cell8  cell9";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+}
+
+.cell-property {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cell1 {
+    grid-area: cell1;
+}
+
+.cell1 img {
+    margin-right: auto;
+}
+
+.cell2 {
+    grid-area: cell2;
+}
+
+.cell3 {
+    grid-area: cell3;
+}
+
+.cell3 img {
+    margin-left: auto;
+}
+
+.cell4 {
+    grid-area: cell4;
+}
+
+.cell4 img {
+    margin-right: auto;
+}
+
+.cell5 {
+    grid-area: cell5;
+}
+
+.cell6 {
+    grid-area: cell6;
+}
+
+.cell6 img {
+    margin-left: auto;
+}
+
+.cell7 {
+    grid-area: cell7;
+}
+
+.cell7 img {
+    margin-right: auto;
+}
+
+.cell8 {
+    grid-area: cell8;
+}
+
+.cell9 {
+    grid-area: cell9;
+}
+
+.cell9 img {
+    margin-left: auto;
+}
+
+.catalog-grid img {
+    max-width: 350px;
+    width: 100%;
+}
+
+.cell-property div {
+    background: var(--green1-clr);
+    cursor: pointer;
+    display: flex;
+}
+
+.cell-property img:hover {
+    opacity: 0.4;
+    transition: ease 0.5s;
+}
+
+.slider-bttns {
+    display: flex;
+    width: 130px;
+    margin: 65px auto 130px auto;
+    justify-content: space-between;
+}
+
+.slider-bttns button {
+    width: 41px;
+    height: 41px;
+    background-color: var(--white-clr);
+    border: 1px solid var(--black-clr);
+    cursor: pointer;
+}
+ 
+button.bttn-arrow {
+    border: 0px;
+    width: 35px;
+}
+
+.active-bttn:focus {
+    background-color: var(--black-clr);
+    color: var(--white-clr);
+    transition: ease 0.5s;
+}
+
+.map-wrapper {
+    max-width: 1109px;
+    width: 100%;
+    height: 476px;
+    margin: 130px auto 0 auto;
+}
+
+.contacts-block {
+    display: flex;
+    justify-content: space-between;
+    max-width: 943px;
+    width: 100%;
+    height: max-content;
+    margin-top: 130px;
+}
+
+.contacts-block div {
+    height: 71px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts-block p {
+    margin: 0;
+}
+
+.font-contacts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+}
+
+.content-pages h3 {
+    margin-top: 130px;
+}
+
+.form-style {
+    max-width: 443px;
+    height: 705px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.prop-input {
+    width: 350px;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid var(--black-clr);
+    margin-top: 35px;
+}
+
+.comment-input {
+    height: 134px;
+    border: 0;
+    border-bottom: 1px solid var(--black-clr);
+    margin-top: 35px;
+}
+
+.message-popup {
+    max-width: 437px;
+    height: 84px;
+    display: none;
+    background-color: var(--main-clr);
+    align-items: center;
+    justify-content: center;
+    margin-top: 62px;
+}
+
+.message-popup.active {
+    display: flex;
+    transition: ease 0.5s;
+}
+
+.form-bttn {
+    width: 189px;
+    height: 68px;
+    background-color: var(--green1-clr);
+    cursor: pointer;
+    color: var(--white-clr);
+    border: 0;
+    margin-top: 57px;
+}
+
+.form-bttn:hover {
+    background-color: var(--green2-clr);
+    transition: ease 0.5s;
+}
+
+::placeholder {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    font-size: 1.5em;
+    color: var(--dark2-grey-clr);
+}
+
+@media screen and (max-width: 1230px) {
+    .content-pages h1 {
+        margin-top: 20px;
+    }
+    .shop-main-content {
+        margin: auto;
+    }
+    .buttons-wrapper button {
+        width: 155px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .buttons-wrapper {
+        margin-top: 30px;
+    }
+    .catalog-grid {
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 20px;
+        column-gap: 3px;
+    }
+    .buttons-wrapper ~ p {
+        margin-top: 40px;
+        margin-left: 3px;
+    }
+    .contacts-block {
+        max-width: 943px;
+        width: 100%;
+        margin: 100px 5px 0 5px;
+    }
+    .form-style {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .message-popup {
+        height: 70px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .contacts-block {
+        margin: 50px 5px 0 5%;
+        flex-direction: column;
+        height: 250px;
+    }
+    .contacts-block div {
+        height: max-content;
+    }
+    .map-wrapper {
+        height: 476px;
+        margin: 50px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .buttons-wrapper button {
+        width: 250px;  
+        height: 40px;
+    }
+    .buttons-wrapper {
+        max-width: 800px;
+        width: 100%;
+        height: 260px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 5px 0 5px;
+        box-sizing: border-box;
+    }
+    .catalog-grid p {
+        font-size: 12px;
+    }
+    .content-pages h3 {
+        margin-top: 50px;
+    }
+}
