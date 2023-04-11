@@ -274,7 +274,6 @@ button.bttn-arrow {
 
 .message-popup.active {
     display: flex;
-    transition: ease 0.5s;
 }
 
 .form-bttn {
